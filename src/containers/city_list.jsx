@@ -19,10 +19,7 @@ class CityList extends Component {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators(
-    { setCities: setCities },
-    dispatch
-  );
+  return bindActionCreators({ setCities }, dispatch);
 }
 
 function mapStateToProps(state) {
